@@ -1,0 +1,21 @@
+{
+	"identifier": "com.pa.expansion.celestial",
+	"display_name": "Celestial Expansion",
+	"description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
+	"author": "Community",
+	"signature": "not yet implemented",
+	"context": "server",
+	"priority": 60,
+	"titansOnly": true,
+	"dependencies": [
+		"com.pa.expansion.celestial.additional"
+	],
+	"category":[
+		"titans",
+		"units",
+		"balance"
+	],
+	"date": "2023-04-07",
+	"build": "116400",
+	"version": "1.0.1"
+}

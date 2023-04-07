@@ -1,0 +1,53 @@
+{
+    "units": [
+        "/pa/units/commanders/base_commander/base_commander.json",
+        "/pa/units/orbital/base_orbital/base_orbital.json",
+
+        "/pa/units/addon/jammer/jammer.json",
+        "/pa/units/addon/jammer_titan/jammer_titan.json",
+
+        "/pa/units/l_addon/l_jammer_station/l_jammer_station.json",
+        "/pa/units/land/bot_tactical_missile/bot_tactical_missile.json",
+        "/pa/units/l_addon/anti_ground_satellite/almaz.json",
+        "/pa/units/addon/andreas/andreas.json",
+
+
+        "/pa/units/land/defence/anti_orbital_titan/anti_orbital_titan.json",
+        "/pa/units/land/defence/l_anti_orbital_titan/l_anti_orbital_titan.json",
+
+
+        "/pa/units/land/control_module/control_module.json",
+        "/pa/units/orbital/delta_v_engine/delta_v_engine.json",
+        "/pa/units/orbital/orbital_battleship/orbital_battleship.json",
+        "/pa/units/orbital/orbital_probe/orbital_probe.json",
+        "/pa/units/orbital/orbital_railgun/orbital_railgun.json",
+        "/pa/units/orbital/titan_orbital/titan_orbital.json",
+        "/pa/units/orbital/defense_satellite/defense_satellite.json",
+        "/pa/units/orbital/ion_defense/ion_defense.json",
+        "/pa/units/orbital/mining_platform/mining_platform.json",
+        "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json",
+        "/pa/units/orbital/orbital_factory/orbital_factory.json",
+        "/pa/units/orbital/orbital_fighter/orbital_fighter.json",
+        "/pa/units/orbital/orbital_lander/orbital_lander.json",
+        "/pa/units/orbital/orbital_laser/orbital_laser.json",
+        "/pa/units/orbital/orbital_launcher/orbital_launcher.json",
+
+
+
+        "/pa/units/land/l_control_module/l_control_module.json",
+        "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine.json",
+        "/pa/units/orbital/l_ion_defense/l_ion_defense.json",
+        "/pa/units/orbital/l_defense_satellite/l_defense_satellite.json",
+        "/pa/units/orbital/l_mining_platform/l_mining_platform.json",
+        "/pa/units/orbital/l_orbital_battleship/l_orbital_battleship.json",
+        "/pa/units/orbital/l_orbital_dropper/l_orbital_dropper.json",
+        "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot.json",
+        "/pa/units/orbital/l_orbital_factory/l_orbital_factory.json",
+        "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter.json",
+        "/pa/units/orbital/l_orbital_lander/l_orbital_lander.json",
+        "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.json",
+        "/pa/units/orbital/l_orbital_probe/l_orbital_probe.json",
+        "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun.json",
+        "/pa/units/orbital/l_titan_orbital/l_titan_orbital.json"
+    ]
+}

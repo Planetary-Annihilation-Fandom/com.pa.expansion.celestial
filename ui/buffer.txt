@@ -1,0 +1,6 @@
+"dependencies": [
+		"com.pa.expansion.celestial.client"
+	  ],
+	  "companions": [
+		"com.pa.expansion.celestial.client"
+	  ],

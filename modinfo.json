@@ -4,6 +4,7 @@
 	"description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
 	"author": "Community",
 	"signature": "not yet implemented",
+	"icon":"https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/icon.png",
 	"context": "server",
 	"priority": 60,
 	"titansOnly": true,

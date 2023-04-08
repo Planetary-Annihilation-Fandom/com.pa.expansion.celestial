@@ -1,22 +1,33 @@
 {
-	"identifier": "com.pa.expansion.celestial",
-	"display_name": "Celestial Expansion",
-	"description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
-	"author": "Community",
-	"signature": "not yet implemented",
-	"icon":"https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/icon.png",
-	"context": "server",
-	"priority": 60,
-	"titansOnly": true,
-	"dependencies": [
-		"com.pa.expansion.celestial.additional"
-	],
-	"category":[
+    "identifier": "com.pa.expansion.celestial",
+    "author":"Community",
+
+    "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/icon.png",
+    "display_name": "Celestial Expansion",
+    "description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
+
+    "category":[
 		"titans",
 		"units",
 		"balance"
 	],
-	"date": "2023-04-07",
-	"build": "116400",
-	"version": "1.0.1"
+
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
+    "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial",
+
+    "build": "116400",
+    "version": "1.0.1-up0",
+    "date": "2023-04-08",
+    
+    "context":"server",
+    "priority": 60,
+
+    "dependencies":[
+        "com.pa.expansion.celestial.additional"
+    ],
+
+    "framework": false,
+
+    "signature" : "Enjoy this modification!",
+    "titansOnly": true
 }

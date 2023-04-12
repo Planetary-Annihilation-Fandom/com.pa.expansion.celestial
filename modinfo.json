@@ -16,14 +16,17 @@
     "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial",
 
     "build": "116400",
-    "version": "1.0.2-up0",
-    "date": "2023-04-11",
+    "version": "1.0.3-up0",
+    "date": "2023-04-12",
     
     "context":"server",
     "priority": 60,
 
     "dependencies":[
-        "com.pa.expansion.celestial.additional"
+        "com.pa.expansion.celestial.additional",
+	    "com.pa.legion-expansion-server",
+	    "pa.mla.unit.addon",
+	    "com.pa.balance.legion"
     ],
 
     "framework": false,

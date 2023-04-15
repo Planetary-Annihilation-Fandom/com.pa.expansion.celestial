@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 690,
-  "buildable_types": "Custom1 & FabOrbBuild | (Titan - Structure) & Custom1",
+  "buildable_types": "Custom1 & FabOrbBuild | (Titan - Structure) & Custom1 | (CmdBuild & ( Factory | Fabber )) & Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

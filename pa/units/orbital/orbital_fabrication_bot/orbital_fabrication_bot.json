@@ -6,7 +6,7 @@
     "max_health": 100,
     "build_metal_cost": 690,
     "spawn_layers": "WL_Orbital",
-    "buildable_types": "(FabOrbBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+    "buildable_types": "(FabOrbBuild | (CmdBuild & ( Factory | Fabber ))) - Custom1 - Custom2 - Custom3 - Custom4",
     "unit_types": [
         "UNITTYPE_Orbital",
         "UNITTYPE_Fabber",

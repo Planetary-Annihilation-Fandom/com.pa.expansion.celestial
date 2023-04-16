@@ -14,6 +14,11 @@ Cost: 1300 to 690
 
 Buildable: added T1 factories and T1 construction tower to buildable list
 
+### Orbital Vision (sight)
+Most units have decreased orbital sight. Mostly, orbital sight valuable only in early game. 
+
+For the most of orbital units new sight radius equals `weapon range + 11%`
+
 ## MLA
 
 ### Umbrella
@@ -22,8 +27,14 @@ Cost: 900 to 700
 ### Avenger
 Cost: 300 to 160
 
+#### Sight
+Orbital: 400 to 110
+
 ### Astreus
 Cost: 200 to 110
+
+#### Sight
+Orbital: 300 to 60
 
 ### Hermes
 Cost: 200 to 110
@@ -86,10 +97,14 @@ Orbital sight: 400 to 130
 
 Weapon range: 200 to 140
 
+#### Sight
+Orbital: 400 to 130
+
 ### Chariot
 Cost: 200 to 110
 
-Orbital sight: 300 to 60
+#### Sight
+Orbital: 300 to 60
 
 ### Spectre
 Cost: 200 to 110

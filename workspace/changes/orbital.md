@@ -12,7 +12,12 @@ Energy consumption: 1000 to 675
 ### Orbital Fabricator (mla and legion)
 Cost: 1300 to 690
 
+Buildable: added T1 factories and T1 construction tower to buildable list
+
 ## MLA
+
+### Umbrella
+Cost: 900 to 700
 
 ### Avenger
 Cost: 300 to 160
@@ -56,6 +61,9 @@ Damage: 160
 Max range: 190
 
 ## Legion
+
+### Tola
+Cost: 1000 to 800
 
 ### Viper
 Cost: 350 to 210
@@ -113,3 +121,4 @@ Rate: every 1 second
 Damage: 75
 
 Range: 50
+

@@ -34,6 +34,8 @@ Sight: 200 to 100
 
 Radar: 0 to 200
 
+Jamming: self-jamming
+
 ### Andreas
 Cost: 900 to 400
 
@@ -60,6 +62,18 @@ Damage: 160
 
 Max range: 190
 
+### Arkyd
+Cost: 800 to 430
+
+Energy consumption: 700 to 1450
+
+Visibility: Global Visible
+
+Radar: added planet-orbit-wide radar
+
+### Advanced Satellite
+Sight: added planet-orbit-wide sight
+
 ## Legion
 
 ### Tola
@@ -85,6 +99,8 @@ Energy consumption: 0 to 150
 Sight: 200 to 100
 
 Radar: 0 to 200
+
+Jamming: self-jamming
 
 ### Black Knight
 Cost: 5000 to 4800
@@ -122,3 +138,14 @@ Damage: 75
 
 Range: 50
 
+### Sputnik
+Cost: 800 to 430
+
+Energy consumption: 700 to 1450
+
+Visibility: Global Visible
+
+Radar: added planet-orbit-wide radar
+
+### Kosmos
+Sight: added planet-orbit-wide sight

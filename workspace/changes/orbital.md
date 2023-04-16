@@ -88,4 +88,28 @@ Rate: every 5 seconds
 
 Damage: 3000 to 480
 
-Splash damage: 480
+Splash damage: 3000 to 480
+
+Splash radius: 65 to 70
+
+Full damage radius: 5 to 50
+
+Range: 40 to 210
+
+### Almaz
+Cost: 1200 to 320
+
+Health: 210 to 200
+
+Jamming: self-jamming
+
+Sight: 50 (only orbital)
+
+Radar: 100 (surface and water)
+
+#### Changed weapon
+Rate: every 1 second
+
+Damage: 75
+
+Range: 50

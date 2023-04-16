@@ -24,7 +24,7 @@
   ],
   "physics": { "collision_layers": "WL_AnySurface" },
   "recon": {
-    "observable": { "always_visible": true },
+    "observable": { "always_visible": false },
     "observer": {
       "items": [
         {

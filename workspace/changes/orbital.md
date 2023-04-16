@@ -76,6 +76,7 @@ Move speed: 10 to 20
 Sight: 100 (only orbital)
 
 #### Added weapon: 
+Target layer: ground
 
 Rate: every 2 seconds
 

@@ -54,6 +54,16 @@ Sight: 40 (only orbital)
 
 Added anti missle weapon: Fires every 6.25 second
 
+### SXX
+Cost: 4000 to 4200
+
+Move speed: 25 to 40
+
+#### Weapon
+Damage: 1000 to 850
+
+Range: 40 to 70
+
 ### Solaris (new version of Solar Array)
 Cost: 1600 to 900
 

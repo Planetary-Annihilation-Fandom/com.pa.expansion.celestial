@@ -36,7 +36,7 @@
         "type": "orbital",
         "acceleration": 75,
         "brake": 75,
-        "move_speed": 25,
+        "move_speed": 40,
         "turn_speed": 90,
         "hover_time": -1.0
     },
@@ -46,7 +46,7 @@
     },
     "recon": {
         "observable": {
-            "ignore_radar": true
+            "ignore_radar": false
         },
         "observer": {
             "items": [

@@ -151,7 +151,7 @@ Cost: 1200 to 320
 
 Health: 210 to 200
 
-Jamming: self-jamming
+Move speed: 25 to 40
 
 Sight: 50 (only orbital)
 

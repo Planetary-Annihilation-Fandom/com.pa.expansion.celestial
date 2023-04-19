@@ -4,7 +4,7 @@
 
     "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
     "display_name": "Celestial Expansion",
-    "description": "Take a new look into Space! Updates orbital gameplay to make it friendly, deep and exciting!",
+    "description": "Take a new look into Space! Expansion updates orbital gameplay to make it friendly, deep and exciting!",
 
     "category":[
 		"titans",
@@ -16,7 +16,7 @@
     "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial",
 
     "build": "116400",
-    "version": "1.2.0-up1",
+    "version": "2.0.0-up0",
     "date": "2023-04-18",
     
     "context":"server",
@@ -33,14 +33,12 @@
     "dependencies":[
         "com.pa.expansion.celestial.additional",
 	    "com.pa.legion-expansion-server",
-	    "pa.mla.unit.addon",
-	    "com.pa.balance.legion"
+	    "pa.mla.unit.addon"
     ],
     "companions": [
         "com.pa.expansion.celestial.additional",
 	    "com.pa.legion-expansion-server",
-	    "pa.mla.unit.addon",
-	    "com.pa.balance.legion"
+	    "pa.mla.unit.addon"
     ],
 
     "framework": false,

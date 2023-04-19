@@ -1,7 +1,75 @@
 {
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "display_name": "!LOC:Paladin",
   "description": "!LOC:Orbital Siege - Long range. High damage. Attacks orbital targets only.",
-  "TEMP_texelinfo": 27,
+  "max_health": 350,
+  "build_metal_cost": 2000,
+  "guard_layer": "WL_Orbital",
+  "tools": [
+    {
+      "aim_bone": "bone_recoilBody",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Fighter",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1",
+    "UNITTYPE_Interplanetary"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist"
+  ],
+  "navigation": {
+    "acceleration": 10,
+    "bank_factor": 1,
+    "brake": 10,
+    "circle_max_time": 4,
+    "circle_min_time": 2,
+    "move_speed": 30,
+    "turn_in_place": true,
+    "turn_speed": 30
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "orbital",
+          "radius": 390,
+          "shape": "sphere"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 10
+  },
+  "selection_icon": {
+    "diameter": -50
+  },
+  "model": {
+    "animations": {
+      "closed": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_closed.papa",
+      "deploy": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_deploy.papa",
+      "open": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_open.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/l_orbital_railgun_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun.papa"
+  },
+  "mesh_bounds": [
+    20,
+    35,
+    13.6
+  ],
   "attachable": {
     "offsets": {
       "root": [
@@ -11,14 +79,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 2000,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Attack",
-    "ORDER_Assist"
-  ],
+  "TEMP_texelinfo": 27,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
@@ -59,66 +120,5 @@
       ],
       "type": "idle"
     }
-  ],
-  "guard_layer": "WL_Orbital",
-  "max_health": 350,
-  "mesh_bounds": [
-    20,
-    35,
-    13.6
-  ],
-  "model": {
-    "animations": {
-      "closed": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_closed.papa",
-      "deploy": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_deploy.papa",
-      "open": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_open.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/l_orbital_railgun_anim_tree.json",
-    "filename": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun.papa"
-  },
-  "navigation": {
-    "acceleration": 10,
-    "bank_factor": 1,
-    "brake": 10,
-    "circle_max_time": 4,
-    "circle_min_time": 2,
-    "move_speed": 30,
-    "turn_in_place": true,
-    "turn_speed": 30
-  },
-  "physics": {
-    "radius": 10
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "orbital",
-          "radius": 390,
-          "shape": "sphere"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -50
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_recoilBody",
-      "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun_tool_weapon.json"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Fighter",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Interplanetary"
   ]
 }

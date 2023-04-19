@@ -1,7 +1,96 @@
 {
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "display_name": "!LOC:Spectre",
   "description": "!LOC:Orbital Scout - Fast. Provides small amount of vision of the planet below",
-  "TEMP_texelinfo": 17.7177,
+  "max_health": 50,
+  "build_metal_cost": 110,
+  "consumption": {
+    "energy": 150
+  },
+  "energy_efficiency_requirement": 0.9,
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Scout",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1",
+    "UNITTYPE_Interplanetary"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist"
+  ],
+  "navigation": {
+    "acceleration": 75,
+    "bank_factor": 2,
+    "brake": 75,
+    "move_speed": 75,
+    "turn_speed": 75
+  },
+  "recon": {
+    "observable": {
+      "ignore_radar": true
+    },
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 100,
+          "uses_energy": true
+        },
+        {
+          "layer": "underwater",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 100,
+          "uses_energy": true
+        },
+        {
+          "layer": "underwater",
+          "channel": "radar",
+          "shape": "capsule",
+          "radius": 200,
+          "uses_energy": true
+        },
+        {
+          "layer": "surface_and_air",
+          "channel": "radar",
+          "shape": "capsule",
+          "radius": 200,
+          "uses_energy": true
+        },
+        {
+          "layer": "orbital",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 220,
+          "uses_energy": true
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": -28.0
+  },
+  "model": {
+    "animations": {
+      "closed": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_closed.papa",
+      "deploy": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_deploy.papa",
+      "open": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_open.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_probe/l_orbital_probe.papa"
+  },
+  "mesh_bounds": [
+    9.4,
+    21.4,
+    16.6
+  ],
   "attachable": {
     "offsets": {
       "root": [
@@ -11,18 +100,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 110,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Attack",
-    "ORDER_Assist"
-  ],
-  "energy_efficiency_requirement": 0.9,
-  "consumption": {
-    "energy": 150
-  },
+  "TEMP_texelinfo": 17.7177,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
@@ -99,83 +177,5 @@
       ],
       "type": "idle"
     }
-  ],
-  "max_health": 50,
-  "mesh_bounds": [
-    9.4,
-    21.4,
-    16.6
-  ],
-  "model": {
-    "animations": {
-      "closed": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_closed.papa",
-      "deploy": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_deploy.papa",
-      "open": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_open.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/orbital/l_orbital_probe/l_orbital_probe.papa"
-  },
-  "navigation": {
-    "acceleration": 75,
-    "bank_factor": 2,
-    "brake": 75,
-    "move_speed": 75,
-    "turn_speed": 75
-  },
-  "recon": {
-    "observable": {
-      "ignore_radar": true
-  },
-    "observer": {
-      "items": [
-        {
-          "layer": "surface_and_air",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 100,
-          "uses_energy": true
-        },
-        {
-          "layer": "underwater",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 100,
-          "uses_energy": true
-        },
-        {
-          "layer": "underwater",
-          "channel": "radar",
-          "shape": "capsule",
-          "radius": 200,
-          "uses_energy": true
-        },
-        {
-          "layer": "surface_and_air",
-          "channel": "radar",
-          "shape": "capsule",
-          "radius": 200,
-          "uses_energy": true
-        },
-        {
-          "layer": "orbital",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 220,
-          "uses_energy": true
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -28.0
-  },
-  "unit_types": [
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Basic",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_Scout",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Interplanetary"
   ]
 }

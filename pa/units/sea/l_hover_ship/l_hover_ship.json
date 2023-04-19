@@ -1,20 +1,109 @@
 {
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "display_name": "!LOC:Jaeger",
   "description": "!LOC:Hover Railgun - Fast. Long range. Can cross water and lava. Attacks land, air and sea targets.",
-  "TEMP_texelinfo": 22.1895,
+  "spawn_layers": "WL_DeepWater",
+  "max_health": 1600,
+  "build_metal_cost": 1700,
+  "guard_layer": "WL_AnySurface",
+  "nearby_target_tick_update_interval": 15,
+  "tools": [
+    {
+      "aim_bone": "bone_turret_main",
+      "fire_event": "fired0",
+      "muzzle_bone": [
+        "socket_muzzle_main"
+      ],
+      "projectiles_per_fire": 1,
+      "record_index": 0,
+      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret_side001",
+      "fire_event": "fired1",
+      "muzzle_bone": [
+        "bone_muzzle_side_a_001",
+        "bone_muzzle_side_b_001",
+        "bone_muzzle_side_c_001"
+      ],
+      "projectiles_per_fire": 3,
+      "record_index": 1,
+      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon_side.json"
+    },
+    {
+      "aim_bone": "bone_turret_side002",
+      "fire_event": "fired2",
+      "muzzle_bone": [
+        "bone_muzzle_side_a_002",
+        "bone_muzzle_side_b_002",
+        "bone_muzzle_side_c_002"
+      ],
+      "projectiles_per_fire": 3,
+      "record_index": 2,
+      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon_side.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Naval",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_Hover",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1"
+  ],
   "armor_type": "AT_Hover",
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/sea/hover_ship_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
+  "navigation": {
+    "acceleration": 8,
+    "aggressive_behaviour": "point",
+    "brake": 6,
+    "move_speed": 16,
+    "park_stamp_cost": 20,
+    "park_stamp_type": "box",
+    "turn_accel": 25,
+    "turn_speed": 50,
+    "type": "hover",
+    "wobble_factor": 5,
+    "wobble_speed": 0.2
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 200,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 200,
+          "shape": "capsule"
+        }
+      ]
     }
   },
-  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 1700,
+  "physics": {
+    "radius": 3,
+    "shape": "sphere"
+  },
+  "selection_icon": {
+    "diameter": -34.0
+  },
+  "model": {
+    "animations": {
+      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/l_hover_ship_anim_tree.json",
+    "filename": "/pa/units/sea/l_hover_ship/l_hover_ship.papa"
+  },
+  "mesh_bounds": [
+    16.721,
+    26.856,
+    7
+  ],
+  "TEMP_texelinfo": 22.1895,
   "events": {
     "died": {
       "audio_cue": "/SE/Death/Sea_large",
@@ -33,6 +122,16 @@
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/hover_small_fire",
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx bone_muzzle_side_a_002 /pa/effects/specs/tank_muzzle_flash.pfx bone_muzzle_side_b_002 /pa/effects/specs/tank_muzzle_flash.pfx bone_muzzle_side_c_002"
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/sea/hover_ship_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
     }
   },
   "fx_offsets": [
@@ -156,104 +255,5 @@
       ],
       "type": "idle"
     }
-  ],
-  "guard_layer": "WL_AnySurface",
-  "max_health": 1600,
-  "mesh_bounds": [
-    16.721,
-    26.856,
-    7
-  ],
-  "model": {
-    "animations": {
-      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/l_hover_ship_anim_tree.json",
-    "filename": "/pa/units/sea/l_hover_ship/l_hover_ship.papa"
-  },
-  "navigation": {
-    "acceleration": 8,
-    "aggressive_behaviour": "point",
-    "brake": 6,
-    "move_speed": 16,
-    "park_stamp_cost": 20,
-    "park_stamp_type": "box",
-    "turn_accel": 25,
-    "turn_speed": 50,
-    "type": "hover",
-    "wobble_factor": 5,
-    "wobble_speed": 0.2
-  },
-  "nearby_target_tick_update_interval": 15,
-  "physics": {
-    "radius": 3,
-    "shape": "sphere"
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 200,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -34.0
-  },
-  "spawn_layers": "WL_DeepWater",
-  "tools": [
-    {
-      "aim_bone": "bone_turret_main",
-      "fire_event": "fired0",
-      "muzzle_bone": [
-        "socket_muzzle_main"
-      ],
-      "projectiles_per_fire": 1,
-      "record_index": 0,
-      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_turret_side001",
-      "fire_event": "fired1",
-      "muzzle_bone": [
-        "bone_muzzle_side_a_001",
-        "bone_muzzle_side_b_001",
-        "bone_muzzle_side_c_001"
-      ],
-      "projectiles_per_fire": 3,
-      "record_index": 1,
-      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon_side.json"
-    },
-    {
-      "aim_bone": "bone_turret_side002",
-      "fire_event": "fired2",
-      "muzzle_bone": [
-        "bone_muzzle_side_a_002",
-        "bone_muzzle_side_b_002",
-        "bone_muzzle_side_c_002"
-      ],
-      "projectiles_per_fire": 3,
-      "record_index": 2,
-      "spec_id": "/pa/units/sea/l_hover_ship/l_hover_ship_tool_weapon_side.json"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Naval",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_Hover",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1"
   ]
 }

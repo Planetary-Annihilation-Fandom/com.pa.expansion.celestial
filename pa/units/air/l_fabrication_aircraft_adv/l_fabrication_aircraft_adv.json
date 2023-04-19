@@ -1,7 +1,87 @@
 {
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "display_name": "!LOC:Advanced Fabrication Flyer",
   "description": "!LOC:Advanced Builder - Builds basic and advanced structures. Builds air titan. Very mobile. Vulnerable. Less efficient than other builders.",
-  "TEMP_texelinfo": 7.54279,
+  "max_health": 160,
+  "build_metal_cost": 2250,
+  "buildable_types": "Custom1 & (Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Air & Titan)",
+  "guard_layer": "WL_LandHorizontal",
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "muzzle_bone": [
+        "turret_left",
+        "turret_right"
+      ],
+      "spec_id": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv_build_arm.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Air",
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "navigation": {
+    "acceleration": 30,
+    "aggressive_behavior": "circle",
+    "brake": 30,
+    "circle_max_time": 3,
+    "circle_min_time": 1,
+    "move_speed": 30,
+    "turn_speed": 180
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 4
+  },
+  "selection_icon": {
+    "diameter": -17
+  },
+  "model": {
+    "animations": {
+      "fly": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv_fly.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/l_fabrication_aircraft_adv_anim_tree.json",
+    "filename": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv.papa"
+  },
+  "mesh_bounds": [
+    10.5,
+    7.52258,
+    3.9
+  ],
   "attachable": {
     "offsets": {
       "head": [
@@ -14,6 +94,12 @@
         0,
         0
       ]
+    }
+  },
+  "TEMP_texelinfo": 7.54279,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
     }
   },
   "audio": {
@@ -33,23 +119,6 @@
     },
     "selection_response": {
       "cue": "/SE/Selection/air/fabber_T2"
-    }
-  },
-  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 2250,
-  "buildable_types": "Custom1 & (Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Air & Titan)",
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Build",
-    "ORDER_Reclaim",
-    "ORDER_Repair",
-    "ORDER_Assist",
-    "ORDER_Use"
-  ],
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/fab"
     }
   },
   "fx_offsets": [
@@ -93,74 +162,5 @@
       "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "moving"
     }
-  ],
-  "guard_layer": "WL_LandHorizontal",
-  "max_health": 160,
-  "mesh_bounds": [
-    10.5,
-    7.52258,
-    3.9
-  ],
-  "model": {
-    "animations": {
-      "fly": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv_fly.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/l_fabrication_aircraft_adv_anim_tree.json",
-    "filename": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv.papa"
-  },
-  "navigation": {
-    "acceleration": 30,
-    "aggressive_behavior": "circle",
-    "brake": 30,
-    "circle_max_time": 3,
-    "circle_min_time": 1,
-    "move_speed": 30,
-    "turn_speed": 180
-  },
-  "physics": {
-    "radius": 4
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -17
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "muzzle_bone": [
-        "turret_left",
-        "turret_right"
-      ],
-      "spec_id": "/pa/units/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv_build_arm.json"
-    }
-  ],
-  "transportable": {
-    "size": 1
-  },
-  "unit_types": [
-    "UNITTYPE_Air",
-    "UNITTYPE_Fabber",
-    "UNITTYPE_Construction",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1"
   ]
 }

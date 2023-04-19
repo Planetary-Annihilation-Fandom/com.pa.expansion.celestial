@@ -1,24 +1,20 @@
 {
-  "ammo_capacity": 425,
-  "ammo_demand": 100,
-  "ammo_id": "/pa/units/air/l_bomber/l_bomber_ammo.json",
-  "ammo_per_shot": 212,
-  "ammo_source": "energy",
-  "auto_attack": true,
   "base_spec": "/pa/tools/base_bomb_bay/base_bomb_bay.json",
-  "carpet_fire": false,
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
-    }
-  },
-  "firing_standard_deviation": 1,
+  "ammo_id": "/pa/units/air/l_bomber/l_bomber_ammo.json",
   "max_range": 10,
-  "pitch_range": 180,
-  "pitch_rate": 3600,
   "rate_of_fire": 2.2,
+  "ammo_source": "energy",
+  "ammo_demand": 100,
+  "ammo_capacity": 425,
+  "ammo_per_shot": 212,
+  "auto_attack": true,
   "spread_fire": true,
+  "carpet_fire": false,
+  "firing_standard_deviation": 1,
+  "yaw_rate": 3600,
+  "pitch_rate": 3600,
+  "yaw_range": 180,
+  "pitch_range": 180,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_WaterSurface",
@@ -32,6 +28,10 @@
     "Artillery & Advanced & (Land | Naval)",
     "Nuke | NukeDefense"
   ],
-  "yaw_range": 180,
-  "yaw_rate": 3600
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Impacts/shell_artillery",
+      "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
+    }
+  }
 }

@@ -1,16 +1,18 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "si_name": "l_jammer_station",
   "unit_name": "Stealth Generator Station",
+  "si_name": "l_jammer_station",
   "display_name": "!LOC:Stealth Generator Station",
   "description": "!LOC:Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.",
+  "spawn_layers": "WL_AnySurface",
   "max_health": 10000,
   "build_metal_cost": 4000,
-  "consumption": { "energy": 2000 },
-  "energy_efficiency_requirement": 0.9,
   "atrophy_rate": 80.0,
   "atrophy_cool_down": 15.0,
-  "spawn_layers": "WL_AnySurface",
+  "consumption": {
+    "energy": 2000
+  },
+  "energy_efficiency_requirement": 0.9,
   "area_build_type": "Sphere",
   "area_build_separation": 600,
   "unit_types": [
@@ -22,9 +24,10 @@
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Custom1"
   ],
-  "physics": { "collision_layers": "WL_AnySurface" },
   "recon": {
-    "observable": { "always_visible": true },
+    "observable": {
+      "always_visible": true
+    },
     "observer": {
       "items": [
         {
@@ -46,7 +49,6 @@
           "radius": 100000,
           "uses_energy": true
         },
-
         {
           "layer": "surface_and_air",
           "channel": "radar_jammer",
@@ -64,6 +66,12 @@
       ]
     }
   },
+  "physics": {
+    "collision_layers": "WL_AnySurface"
+  },
+  "selection_icon": {
+    "diameter": -95.0
+  },
   "model": [
     {
       "filename": "/pa/units/l_addon/l_jammer_station/l_jammer_station.papa",
@@ -74,12 +82,20 @@
       "skirt_decal": "/pa/effects/specs/skirt_energy.json"
     }
   ],
+  "mesh_bounds": [
+    60,
+    60,
+    30
+  ],
+  "TEMP_texelinfo": 16.9774,
   "events": {
-    "build_complete": { "audio_cue": "/SE/Build_Complete/radar" },
-    "died": { "audio_cue": "/SE/Death/radar", "effect_scale": 2 }
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/radar"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/radar",
+      "effect_scale": 2
+    }
   },
-  "fx_offsets": [],
-  "selection_icon": { "diameter": -95.0 },
-  "mesh_bounds": [60, 60, 30],
-  "TEMP_texelinfo": 16.9774
+  "fx_offsets": []
 }

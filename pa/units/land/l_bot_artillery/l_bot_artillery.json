@@ -1,7 +1,81 @@
 {
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "display_name": "!LOC:Miniman",
   "description": "!LOC:Siege Walker - Long range. Launches timed sticky plasma mines. Attacks land, sea and seabed targets.",
-  "TEMP_texelinfo": 10,
+  "max_health": 125,
+  "build_metal_cost": 1000,
+  "guard_layer": "WL_AnySurface",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch01",
+      "muzzle_bone": [
+        "socket_muzzle01",
+        "socket_muzzle02",
+        "socket_muzzle03"
+      ],
+      "projectiles_per_fire": 3,
+      "spec_id": "/pa/units/land/l_bot_artillery/l_bot_artillery_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist",
+    "ORDER_Use",
+    "ORDER_FireSecondaryWeapon"
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "navigation": {
+    "acceleration": 120,
+    "brake": -1,
+    "move_speed": 10,
+    "turn_speed": 75
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 2
+  },
+  "selection_icon": {
+    "diameter": -23
+  },
+  "model": {
+    "animations": {
+      "idle": "/pa/units/land/l_bot_artillery/l_bot_artillery_idle.papa",
+      "walk": "/pa/units/land/l_bot_artillery/l_bot_artillery_walk.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/l_bot_artillery_anim_tree.json",
+    "filename": "/pa/units/land/l_bot_artillery/l_bot_artillery.papa",
+    "walk_speed": 3
+  },
+  "mesh_bounds": [
+    10,
+    12,
+    8
+  ],
   "attachable": {
     "offsets": {
       "head": [
@@ -14,6 +88,13 @@
         0,
         0
       ]
+    }
+  },
+  "TEMP_texelinfo": 10,
+  "events": {
+    "fired": {
+      "audio_cue": "/SE/Weapons/bot/grenadier_fire",
+      "effect_spec": "/pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle01 /pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle02 /pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle03"
     }
   },
   "audio": {
@@ -29,23 +110,6 @@
       "cue": "/SE/Selection/bot/grenadier"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 1000,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Attack",
-    "ORDER_Assist",
-    "ORDER_Use",
-    "ORDER_FireSecondaryWeapon"
-  ],
-  "events": {
-    "fired": {
-      "audio_cue": "/SE/Weapons/bot/grenadier_fire",
-      "effect_spec": "/pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle01 /pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle02 /pa/units/land/l_bot_artillery/muzzle_flash.pfx socket_muzzle03"
-    }
-  },
-  "guard_layer": "WL_AnySurface",
   "headlights": [
     {
       "bone": "bone_root",
@@ -71,69 +135,5 @@
         0
       ]
     }
-  ],
-  "max_health": 125,
-  "mesh_bounds": [
-    10,
-    12,
-    8
-  ],
-  "model": {
-    "animations": {
-      "idle": "/pa/units/land/l_bot_artillery/l_bot_artillery_idle.papa",
-      "walk": "/pa/units/land/l_bot_artillery/l_bot_artillery_walk.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/l_bot_artillery_anim_tree.json",
-    "filename": "/pa/units/land/l_bot_artillery/l_bot_artillery.papa",
-    "walk_speed": 3
-  },
-  "navigation": {
-    "acceleration": 120,
-    "brake": -1,
-    "move_speed": 10,
-    "turn_speed": 75
-  },
-  "physics": {
-    "radius": 2
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -23
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_pitch01",
-      "muzzle_bone": [
-        "socket_muzzle01",
-        "socket_muzzle02",
-        "socket_muzzle03"
-      ],
-      "projectiles_per_fire": 3,
-      "spec_id": "/pa/units/land/l_bot_artillery/l_bot_artillery_tool_weapon.json"
-    }
-  ],
-  "transportable": {
-    "size": 1
-  },
-  "unit_types": [
-    "UNITTYPE_Bot",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Artillery",
-    "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1"
   ]
 }

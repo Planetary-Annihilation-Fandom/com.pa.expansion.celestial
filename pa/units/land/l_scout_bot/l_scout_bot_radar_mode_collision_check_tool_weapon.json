@@ -1,6 +1,5 @@
 {
-  "ammo_capacity": 0.3,
-  "ammo_demand": 1,
+  "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
   "ammo_id": [
     {
       "id": "/pa/units/land/l_scout_bot/l_scout_bot_radar_mode_collision_check_land_ammo.json",
@@ -11,20 +10,21 @@
       "layer": "WL_Seafloor"
     }
   ],
-  "ammo_per_shot": 0.3,
-  "ammo_source": "time",
-  "auto_attack": true,
-  "auto_fire_when_charged": true,
-  "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
-  "firing_arc_pitch": 360,
-  "firing_arc_yaw": 360,
   "max_range": 0,
-  "only_fire_once": true,
-  "pitch_range": 0,
-  "pitch_rate": 0,
   "rate_of_fire": 1,
+  "ammo_source": "time",
+  "ammo_demand": 1,
+  "ammo_capacity": 0.3,
+  "ammo_per_shot": 0.3,
+  "auto_attack": true,
   "self_destruct": true,
-  "start_fully_charged": false,
+  "yaw_rate": 0,
+  "pitch_rate": 0,
   "yaw_range": 0,
-  "yaw_rate": 0
+  "pitch_range": 0,
+  "firing_arc_yaw": 360,
+  "firing_arc_pitch": 360,
+  "auto_fire_when_charged": true,
+  "only_fire_once": true,
+  "start_fully_charged": false
 }

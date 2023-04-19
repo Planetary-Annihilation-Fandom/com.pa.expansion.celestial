@@ -1,7 +1,73 @@
 {
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "display_name": "!LOC:Viper",
   "description": "!LOC:Orbital Fighter - Fast. Attacks orbital targets only.",
-  "TEMP_texelinfo": 17.7177,
+  "max_health": 100,
+  "build_metal_cost": 210,
+  "guard_radius": 60,
+  "guard_layer": "WL_Orbital",
+  "tools": [
+    {
+      "aim_bone": "bone_body",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Fighter",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1",
+    "UNITTYPE_Interplanetary"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist"
+  ],
+  "navigation": {
+    "acceleration": 65,
+    "bank_factor": 1,
+    "brake": 20,
+    "circle_max_time": 4,
+    "circle_min_time": 2,
+    "move_speed": 65,
+    "turn_speed": 200
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "orbital",
+          "radius": 130,
+          "shape": "sphere"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 5
+  },
+  "selection_icon": {
+    "diameter": -30
+  },
+  "model": {
+    "animations": {
+      "idle": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_open.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter.papa"
+  },
+  "mesh_bounds": [
+    12,
+    11,
+    2.5
+  ],
   "attachable": {
     "offsets": {
       "root": [
@@ -11,14 +77,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 210,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Attack",
-    "ORDER_Assist"
-  ],
+  "TEMP_texelinfo": 17.7177,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
@@ -44,64 +103,5 @@
       ],
       "type": "idle"
     }
-  ],
-  "guard_layer": "WL_Orbital",
-  "guard_radius": 60,
-  "max_health": 100,
-  "mesh_bounds": [
-    12,
-    11,
-    2.5
-  ],
-  "model": {
-    "animations": {
-      "idle": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_open.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-    "filename": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter.papa"
-  },
-  "navigation": {
-    "acceleration": 65,
-    "bank_factor": 1,
-    "brake": 20,
-    "circle_max_time": 4,
-    "circle_min_time": 2,
-    "move_speed": 65,
-    "turn_speed": 200
-  },
-  "physics": {
-    "radius": 5
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "orbital",
-          "radius": 130,
-          "shape": "sphere"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -30
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_body",
-      "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_tool_weapon.json"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_Fighter",
-    "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Interplanetary"
   ]
 }

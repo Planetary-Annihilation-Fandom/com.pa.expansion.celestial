@@ -1,10 +1,59 @@
 {
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "display_name": "Boombot Cocoon",
   "description": "!LOC:Spawns Purger",
-  "TEMP_texelinfo": 6.38702,
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "max_health": 500,
+  "wreckage_health_frac": 0.0,
   "build_metal_cost": 50,
-  "damageable": false,
+  "guard_radius": 0,
+  "guard_layer": "WL_AnySurface",
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "record_index": 0,
+      "spec_id": "/pa/units/land/l_necromancer/l_minion/l_minion_spawner_death_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_NoBuild",
+    "UNITTYPE_Custom1"
+  ],
+  "navigation": {
+    "acceleration": 0,
+    "brake": 0,
+    "move_speed": 0,
+    "turn_speed": 0,
+    "type": "land-small",
+    "wobble_factor": 0.1,
+    "wobble_speed": 0.2
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 0,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "allow_pushing": true,
+    "radius": 0
+  },
+  "selection_icon": {
+    "diameter": -1
+  },
+  "mesh_bounds": [
+    0.01,
+    0.01,
+    0.01
+  ],
+  "TEMP_texelinfo": 6.38702,
   "death": {
     "decals": []
   },
@@ -33,55 +82,6 @@
       "type": "idle"
     }
   ],
-  "guard_layer": "WL_AnySurface",
-  "guard_radius": 0,
-  "max_health": 500,
-  "mesh_bounds": [
-    0.01,
-    0.01,
-    0.01
-  ],
-  "navigation": {
-    "acceleration": 0,
-    "brake": 0,
-    "move_speed": 0,
-    "turn_speed": 0,
-    "type": "land-small",
-    "wobble_factor": 0.1,
-    "wobble_speed": 0.2
-  },
-  "physics": {
-    "allow_pushing": true,
-    "radius": 0
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 0,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -1
-  },
-  "spawn_unit_on_death": "/pa/units/land/l_necromancer/l_minion/l_minion.json",
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "record_index": 0,
-      "spec_id": "/pa/units/land/l_necromancer/l_minion/l_minion_spawner_death_weapon.json"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_NoBuild",
-    "UNITTYPE_Custom1"
-  ],
-  "wreckage_health_frac": 0.0
+  "damageable": false,
+  "spawn_unit_on_death": "/pa/units/land/l_necromancer/l_minion/l_minion.json"
 }

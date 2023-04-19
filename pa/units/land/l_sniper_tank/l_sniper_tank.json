@@ -1,7 +1,64 @@
 {
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "!LOC:Deathmark",
   "description": "!LOC:Siege Tank - Long range. Attacks land, sea and seabed.",
-  "TEMP_texelinfo": 5.84968,
+  "max_health": 450,
+  "build_metal_cost": 1300,
+  "guard_layer": "WL_AnySurface",
+  "tools": [
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land/l_sniper_tank/l_sniper_tank_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1"
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "navigation": {
+    "acceleration": 100,
+    "brake": 100,
+    "move_speed": 8,
+    "turn_speed": 90
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 4
+  },
+  "selection_icon": {
+    "diameter": -14
+  },
+  "model": {
+    "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/land/l_sniper_tank/l_sniper_tank.papa"
+  },
+  "mesh_bounds": [
+    6.985,
+    12.365,
+    4.067
+  ],
   "attachable": {
     "offsets": {
       "head": [
@@ -14,6 +71,13 @@
         0,
         0
       ]
+    }
+  },
+  "TEMP_texelinfo": 5.84968,
+  "events": {
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/tank_T2_leveler",
+      "effect_spec": "/pa/units/land/l_sniper_tank/muzzle_flash.pfx socket_muzzle /pa/units/land/l_sniper_tank/artillery_muzzle_ground.pfx bone_root /pa/effects/specs/default_muzzle_flash.pfx bone_effect"
     }
   },
   "audio": {
@@ -29,14 +93,6 @@
       "cue": "/SE/Selection/veh/tank_light_laser"
     }
   },
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 1300,
-  "events": {
-    "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_T2_leveler",
-      "effect_spec": "/pa/units/land/l_sniper_tank/muzzle_flash.pfx socket_muzzle /pa/units/land/l_sniper_tank/artillery_muzzle_ground.pfx bone_root /pa/effects/specs/default_muzzle_flash.pfx bone_effect"
-    }
-  },
   "fx_offsets": [
     {
       "bone": "bone_turret",
@@ -49,7 +105,6 @@
       "type": "idle"
     }
   ],
-  "guard_layer": "WL_AnySurface",
   "headlights": [
     {
       "color": [
@@ -74,60 +129,5 @@
         0
       ]
     }
-  ],
-  "max_health": 450,
-  "mesh_bounds": [
-    6.985,
-    12.365,
-    4.067
-  ],
-  "model": {
-    "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
-    "arrows": 5,
-    "filename": "/pa/units/land/l_sniper_tank/l_sniper_tank.papa"
-  },
-  "navigation": {
-    "acceleration": 100,
-    "brake": 100,
-    "move_speed": 8,
-    "turn_speed": 90
-  },
-  "physics": {
-    "radius": 4
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "selection_icon": {
-    "diameter": -14
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/land/l_sniper_tank/l_sniper_tank_tool_weapon.json"
-    }
-  ],
-  "transportable": {
-    "size": 1
-  },
-  "unit_types": [
-    "UNITTYPE_Tank",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Artillery",
-    "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1"
   ]
 }

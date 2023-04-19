@@ -1,9 +1,108 @@
 {
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "!LOC:Starship Projector",
   "description": "!LOC:Basic Manufacturing - Builds basic orbital units.",
-  "TEMP_texelinfo": 47.5342,
-  "atrophy_cool_down": 15.0,
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "max_health": 6000,
+  "build_metal_cost": 600,
   "atrophy_rate": 45.0,
+  "atrophy_cool_down": 15.0,
+  "buildable_types": "Custom1 & ( Orbital & FactoryBuild & Basic )",
+  "factory": {
+    "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
+    "spawn_points": [
+      "bone_platform"
+    ]
+  },
+  "wait_to_rolloff_time": 3,
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/orbital/orbital_launcher/orbital_launcher_build_arm.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Factory",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Structure",
+    "UNITTYPE_Land",
+    "UNITTYPE_FabBuild",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Important",
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_Custom1"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_FactoryBuild",
+    "ORDER_Attack",
+    "ORDER_Assist"
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 110
+        },
+        {
+          "layer": "underwater",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 110
+        },
+        {
+          "layer": "orbital",
+          "channel": "radar",
+          "shape": "capsule",
+          "radius": 250
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": -75
+  },
+  "model": [
+    {
+      "animations": {
+        "build_end": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_end.papa",
+        "build_loop": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_build.papa",
+        "build_start": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_start.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
+      "filename": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.papa",
+      "layer": "WL_LandHorizontal",
+      "skirt_decal": "/pa/effects/specs/skirt_orbital_launcher.json"
+    },
+    {
+      "animations": {
+        "build_end": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_end.papa",
+        "build_loop": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_build.papa",
+        "build_start": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_start.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
+      "filename": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.papa",
+      "layer": "WL_WaterSurface"
+    }
+  ],
+  "mesh_bounds": [
+    50.0454,
+    50.0306,
+    58
+  ],
+  "TEMP_texelinfo": 47.5342,
+  "events": {
+    "died": {
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
+    }
+  },
   "audio": {
     "loops": {
       "build": {
@@ -13,29 +112,6 @@
         "should_stop_func": "no_build_target"
       }
     }
-  },
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 600,
-  "buildable_types": "Custom1 & ( Orbital & FactoryBuild & Basic )",
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_FactoryBuild",
-    "ORDER_Attack",
-    "ORDER_Assist"
-  ],
-  "enable_orbital_shell": true,
-  "events": {
-    "died": {
-      "effect_scale": 1.0,
-      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
-    }
-  },
-  "factory": {
-    "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
-    "spawn_points": [
-      "bone_platform"
-    ]
   },
   "fx_offsets": [
     {
@@ -107,79 +183,6 @@
         0
       ],
       "type": "build"
-    }
-  ],
-  "headlights": [
-    {
-      "bone": "bone_platform",
-      "color": [
-        1.5,
-        1.52,
-        1.6
-      ],
-      "far_distance": 40.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 3.0,
-      "near_distance": 5.0,
-      "near_height": 4.5,
-      "near_width": 4.5,
-      "offset": [
-        -8.0,
-        0.0,
-        5.0
-      ],
-      "orientation": [
-        160.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "bone": "bone_platform",
-      "color": [
-        1.5,
-        1.52,
-        1.6
-      ],
-      "far_distance": 40.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 3.0,
-      "near_distance": 5.0,
-      "near_height": 4.5,
-      "near_width": 4.5,
-      "offset": [
-        8.0,
-        0.0,
-        5.0
-      ],
-      "orientation": [
-        -160.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "color": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "far_distance": 25.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 3.0,
-      "near_distance": 2.5,
-      "near_height": 5.5,
-      "near_width": 5.5,
-      "offset": [
-        -5.0,
-        -21.47,
-        8.99
-      ],
-      "orientation": [
-        0.0,
-        35.0,
-        0.0
-      ]
     }
   ],
   "lamps": [
@@ -354,81 +357,78 @@
       "radius": 4.0
     }
   ],
-  "max_health": 6000,
-  "mesh_bounds": [
-    50.0454,
-    50.0306,
-    58
-  ],
-  "model": [
+  "headlights": [
     {
-      "animations": {
-        "build_end": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_end.papa",
-        "build_loop": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_build.papa",
-        "build_start": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.papa",
-      "layer": "WL_LandHorizontal",
-      "skirt_decal": "/pa/effects/specs/skirt_orbital_launcher.json"
+      "bone": "bone_platform",
+      "color": [
+        1.5,
+        1.52,
+        1.6
+      ],
+      "far_distance": 40.0,
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "intensity": 3.0,
+      "near_distance": 5.0,
+      "near_height": 4.5,
+      "near_width": 4.5,
+      "offset": [
+        -8.0,
+        0.0,
+        5.0
+      ],
+      "orientation": [
+        160.0,
+        0.0,
+        0.0
+      ]
     },
     {
-      "animations": {
-        "build_end": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_end.papa",
-        "build_loop": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_build.papa",
-        "build_start": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.papa",
-      "layer": "WL_WaterSurface"
-    }
-  ],
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "layer": "surface_and_air",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 110
-        },
-        {
-          "layer": "underwater",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 110
-        },
-        {
-          "layer": "orbital",
-          "channel": "radar",
-          "shape": "capsule",
-          "radius": 250
-        }
+      "bone": "bone_platform",
+      "color": [
+        1.5,
+        1.52,
+        1.6
+      ],
+      "far_distance": 40.0,
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "intensity": 3.0,
+      "near_distance": 5.0,
+      "near_height": 4.5,
+      "near_width": 4.5,
+      "offset": [
+        8.0,
+        0.0,
+        5.0
+      ],
+      "orientation": [
+        -160.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "far_distance": 25.0,
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "intensity": 3.0,
+      "near_distance": 2.5,
+      "near_height": 5.5,
+      "near_width": 5.5,
+      "offset": [
+        -5.0,
+        -21.47,
+        8.99
+      ],
+      "orientation": [
+        0.0,
+        35.0,
+        0.0
       ]
     }
-  },
-  "selection_icon": {
-    "diameter": -75
-  },
-  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "spec_id": "/pa/units/orbital/orbital_launcher/orbital_launcher_build_arm.json"
-    }
   ],
-  "unit_types": [
-    "UNITTYPE_Orbital",
-    "UNITTYPE_Factory",
-    "UNITTYPE_Construction",
-    "UNITTYPE_Structure",
-    "UNITTYPE_Land",
-    "UNITTYPE_FabBuild",
-    "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_Basic",
-    "UNITTYPE_Important",
-    "UNITTYPE_CmdBuild",
-    "UNITTYPE_Custom1"
-  ],
-  "wait_to_rolloff_time": 3
+  "enable_orbital_shell": true
 }

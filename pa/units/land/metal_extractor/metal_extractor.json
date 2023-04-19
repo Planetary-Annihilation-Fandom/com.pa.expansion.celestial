@@ -3,22 +3,18 @@
   "unit_name": "!Metal Extractor",
   "display_name": "!LOC:Metal Extractor",
   "description": "!LOC:Basic Economy - Produces metal, can only be placed on metal deposits.",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "max_health": 1000,
   "build_metal_cost": 170,
   "atrophy_rate": 2.5,
   "atrophy_cool_down": 15.0,
-  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-  "feature_requirements": [
-    "metal_spot"
-  ],
-  "force_snap_to_feature_orientation": true,
-  "area_build_type": "Sphere",
   "production": {
     "metal": 7
   },
   "consumption": {
     "energy": 0
   },
+  "area_build_type": "Sphere",
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
@@ -46,6 +42,9 @@
       ]
     }
   },
+  "selection_icon": {
+    "diameter": 24.0
+  },
   "model": [
     {
       "layer": "WL_LandHorizontal",
@@ -64,10 +63,16 @@
       "animtree": "/pa/anim/anim_trees/simple_building_anim_tree.json"
     }
   ],
-  "replaceable_units": [
-    "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json",
-    "/pa/units/land/l_mex_adv/l_mex_adv.json"
+  "mesh_bounds": [
+    9.2,
+    10.0407,
+    23.5
   ],
+  "placement_size": [
+    16,
+    16
+  ],
+  "TEMP_texelinfo": 15.0973,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
@@ -98,17 +103,12 @@
       "intensity": 1.0
     }
   ],
-  "selection_icon": {
-    "diameter": 24.0
-  },
-  "mesh_bounds": [
-    9.2,
-    10.0407,
-    23.5
+  "feature_requirements": [
+    "metal_spot"
   ],
-  "placement_size": [
-    16,
-    16
-  ],
-  "TEMP_texelinfo": 15.0973
+  "force_snap_to_feature_orientation": true,
+  "replaceable_units": [
+    "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json",
+    "/pa/units/land/l_mex_adv/l_mex_adv.json"
+  ]
 }

@@ -1,18 +1,18 @@
 {
-  "ammo_id": "/pa/units/air/l_air_bomb/l_air_bomb_ammo.json",
-  "auto_attack": false,
   "base_spec": "/pa/tools/base_missile_turret/base_missile_turret.json",
-  "firing_arc_pitch": 180,
-  "firing_arc_yaw": 360,
-  "manual_fire": true,
+  "ammo_id": "/pa/units/air/l_air_bomb/l_air_bomb_ammo.json",
   "max_range": 10,
-  "pitch_range": 180,
-  "pitch_rate": 3600,
   "rate_of_fire": 5,
+  "manual_fire": true,
+  "auto_attack": false,
   "self_destruct": true,
+  "yaw_rate": 3600,
+  "pitch_rate": 3600,
+  "yaw_range": 360,
+  "pitch_range": 180,
+  "firing_arc_yaw": 360,
+  "firing_arc_pitch": 180,
   "target_layers": [
     "WL_Air"
-  ],
-  "yaw_range": 360,
-  "yaw_rate": 3600
+  ]
 }

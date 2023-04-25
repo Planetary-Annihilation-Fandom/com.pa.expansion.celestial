@@ -5,8 +5,8 @@
   "display_name": "!LOC:Metal Generator",
   "description": "!LOC:Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-  "max_health": 300,
-  "build_metal_cost": 450,
+  "max_health": 600,
+  "build_metal_cost": 170,
   "atrophy_rate": 5.0,
   "atrophy_cool_down": 15.0,
   "production": {

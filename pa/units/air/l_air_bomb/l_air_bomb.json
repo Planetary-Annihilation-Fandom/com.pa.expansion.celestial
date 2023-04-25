@@ -3,7 +3,7 @@
   "display_name": "!LOC:Nova",
   "description": "!LOC:Flying nanites generator. At death it creates a swarm of nanites. Fast. Does not attack.",
   "max_health": 180,
-  "build_metal_cost": 110,
+  "build_metal_cost": 60,
   "guard_radius": 0,
   "guard_layer": "WL_Air",
   "unit_types": [
@@ -36,7 +36,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
+          "radius": 40,
           "shape": "capsule"
         }
       ]

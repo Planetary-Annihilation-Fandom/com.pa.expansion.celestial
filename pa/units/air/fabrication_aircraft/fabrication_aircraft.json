@@ -5,7 +5,7 @@
   "description": "!LOC:Basic Fabricator - Build basic structures. Weaker than other fabricators.",
   "max_health": 25,
   "build_metal_cost": 225,
-  "buildable_types": "(Land & Structure & Basic | Factory & Basic | Factory & Advanced & Air | FabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Land & Structure & Basic | Factory & Basic | Factory & Advanced & Air | FabBuild) & Custom58",
   "guard_layer": "WL_LandHorizontal",
   "tools": [
     {
@@ -19,7 +19,8 @@
     "UNITTYPE_Construction",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

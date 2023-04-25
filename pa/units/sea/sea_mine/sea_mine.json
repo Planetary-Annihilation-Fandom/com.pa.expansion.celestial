@@ -9,7 +9,8 @@
     "UNITTYPE_Structure",
     "UNITTYPE_Naval",
     "UNITTYPE_Defense",
-    "UNITTYPE_Basic"
+    "UNITTYPE_Basic",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observer": {

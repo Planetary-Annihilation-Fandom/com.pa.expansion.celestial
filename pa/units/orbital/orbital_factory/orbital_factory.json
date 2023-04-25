@@ -9,7 +9,7 @@
   "build_metal_cost": 4200,
   "atrophy_rate": 90.0,
   "atrophy_cool_down": 15.0,
-  "buildable_types": "(Orbital & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Orbital & FactoryBuild) & Custom58",
   "wait_to_rolloff_time": 0,
   "factory_cooldown_time": 4,
   "rolloff_dirs": [
@@ -38,7 +38,8 @@
     "UNITTYPE_FabOrbBuild",
     "UNITTYPE_Structure",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Important"
+    "UNITTYPE_Important",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

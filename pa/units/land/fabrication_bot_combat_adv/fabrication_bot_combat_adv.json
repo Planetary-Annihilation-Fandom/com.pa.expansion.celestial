@@ -5,7 +5,7 @@
   "spawn_layers": "WL_LandHorizontal",
   "max_health": 350,
   "build_metal_cost": 1000,
-  "buildable_types": "(CombatFabAdvBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(CombatFabAdvBuild) & Custom58",
   "guard_layer": "WL_LandHorizontal",
   "tools": [
     {
@@ -20,7 +20,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

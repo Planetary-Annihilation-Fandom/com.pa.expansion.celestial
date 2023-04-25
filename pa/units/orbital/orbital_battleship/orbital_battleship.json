@@ -68,7 +68,8 @@
     "UNITTYPE_Heavy",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Interplanetary"
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

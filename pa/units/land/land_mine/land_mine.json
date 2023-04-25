@@ -22,7 +22,8 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Defense",
     "UNITTYPE_CombatFabBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observable": {

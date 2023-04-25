@@ -30,7 +30,8 @@
     "UNITTYPE_Artillery",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_TacticalDefense"
+    "UNITTYPE_TacticalDefense",
+    "UNITTYPE_Custom58"
   ],
   "transportable": {
     "size": 1

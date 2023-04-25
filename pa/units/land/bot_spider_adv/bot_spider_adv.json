@@ -16,7 +16,8 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
-    "UNITTYPE_Land"
+    "UNITTYPE_Land",
+    "UNITTYPE_Custom58"
   ],
   "transportable": {
     "size": 1

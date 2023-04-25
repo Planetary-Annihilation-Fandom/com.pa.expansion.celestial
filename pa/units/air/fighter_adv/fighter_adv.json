@@ -22,7 +22,8 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Interplanetary"
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Custom58"
   ],
   "navigation": {
     "type": "air",

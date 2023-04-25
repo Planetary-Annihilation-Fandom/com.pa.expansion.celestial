@@ -27,7 +27,8 @@
     "UNITTYPE_SurfaceDefense",
     "UNITTYPE_Defense",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Attack"

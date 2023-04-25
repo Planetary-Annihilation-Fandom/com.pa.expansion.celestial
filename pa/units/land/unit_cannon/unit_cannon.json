@@ -8,7 +8,7 @@
   "build_metal_cost": 6800,
   "atrophy_rate": 140.0,
   "atrophy_cool_down": 15.0,
-  "buildable_types": "(CannonBuildable) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "CannonBuildable & Custom58",
   "factory": {
     "deploy_projectile": "/pa/units/land/unit_cannon/unit_cannon_deploy.json",
     "store_units": true,
@@ -52,7 +52,8 @@
     "UNITTYPE_Artillery",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Important",
-    "UNITTYPE_Interplanetary"
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_FactoryBuild",

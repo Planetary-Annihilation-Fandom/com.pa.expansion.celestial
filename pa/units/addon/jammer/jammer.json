@@ -21,7 +21,8 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Recon",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_RadarJammer"
+    "UNITTYPE_RadarJammer",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observable": {

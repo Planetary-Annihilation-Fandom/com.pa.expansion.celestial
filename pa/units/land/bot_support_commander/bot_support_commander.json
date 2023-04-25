@@ -5,7 +5,7 @@
   "max_health": 6000,
   "wreckage_health_frac": 0.5,
   "build_metal_cost": 6000,
-  "buildable_types": "(Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot) & Custom58",
   "tools": [
     {
       "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander_tool_build_arm.json",
@@ -27,7 +27,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Amphibious"
+    "UNITTYPE_Amphibious",
+    "UNITTYPE_Custom58"
   ],
   "armor_type": "AT_Commander",
   "command_caps": [

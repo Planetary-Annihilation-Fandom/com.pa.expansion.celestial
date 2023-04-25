@@ -22,7 +22,8 @@
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Air",
-    "UNITTYPE_Basic"
+    "UNITTYPE_Basic",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [],
   "navigation": {

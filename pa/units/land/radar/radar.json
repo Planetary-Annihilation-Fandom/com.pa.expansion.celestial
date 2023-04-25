@@ -21,7 +21,8 @@
     "UNITTYPE_FabBuild",
     "UNITTYPE_Recon",
     "UNITTYPE_CombatFabAdvBuild",
-    "UNITTYPE_Radar"
+    "UNITTYPE_Radar",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observer": {

@@ -9,7 +9,8 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Transport",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

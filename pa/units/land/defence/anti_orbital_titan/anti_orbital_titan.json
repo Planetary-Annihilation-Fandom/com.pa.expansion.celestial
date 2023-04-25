@@ -51,7 +51,8 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Defense",
     "UNITTYPE_OrbitalDefense",
-    "UNITTYPE_CmdBuild"
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Attack"

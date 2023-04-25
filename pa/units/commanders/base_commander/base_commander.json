@@ -4,7 +4,7 @@
   "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
   "max_health": 12500,
   "build_metal_cost": 25000,
-  "buildable_types": "(CmdBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "CmdBuild & Custom58",
   "production": {
     "energy": 2000,
     "metal": 20
@@ -57,7 +57,8 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
     "UNITTYPE_Amphibious",
-    "UNITTYPE_NoBuild"
+    "UNITTYPE_NoBuild",
+    "UNITTYPE_Custom58"
   ],
   "armor_type": "AT_Commander",
   "command_caps": [

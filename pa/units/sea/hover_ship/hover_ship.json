@@ -59,7 +59,8 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
     "UNITTYPE_Hover",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "armor_type": "AT_Hover",
   "navigation": {

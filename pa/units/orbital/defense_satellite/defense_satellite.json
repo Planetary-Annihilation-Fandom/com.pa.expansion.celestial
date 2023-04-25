@@ -50,7 +50,8 @@
     "UNITTYPE_Defense",
     "UNITTYPE_OrbitalDefense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_FabOrbBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Attack",

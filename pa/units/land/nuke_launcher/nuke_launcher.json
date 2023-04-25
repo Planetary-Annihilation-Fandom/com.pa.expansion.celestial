@@ -38,7 +38,8 @@
     "UNITTYPE_Factory",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Important",
-    "UNITTYPE_Interplanetary"
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_FactoryBuild",

@@ -18,7 +18,8 @@
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_CmdBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observer": {

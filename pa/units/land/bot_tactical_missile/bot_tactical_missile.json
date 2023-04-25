@@ -39,7 +39,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Tactical",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "transportable": {
     "size": 1

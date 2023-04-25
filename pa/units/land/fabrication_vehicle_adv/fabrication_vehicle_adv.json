@@ -5,7 +5,7 @@
   "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures. Durable. More powerful than other fabricators.",
   "max_health": 400,
   "build_metal_cost": 2025,
-  "buildable_types": "(Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Naval)) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Naval)) & Custom58",
   "guard_layer": "WL_LandHorizontal",
   "tools": [
     {
@@ -22,7 +22,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

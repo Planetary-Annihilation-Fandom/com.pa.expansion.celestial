@@ -47,7 +47,8 @@
     "UNITTYPE_Tactical",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Radar",
-    "UNITTYPE_AirDefense"
+    "UNITTYPE_AirDefense",
+    "UNITTYPE_Custom58"
   ],
   "navigation": {
     "type": "deepwater",

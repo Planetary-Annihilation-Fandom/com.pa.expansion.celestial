@@ -6,7 +6,7 @@
   "spawn_layers": "WL_WaterSurface",
   "max_health": 600,
   "build_metal_cost": 2400,
-  "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild) & Custom58",
   "tools": [
     {
       "spec_id": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv_build_arm.json",
@@ -19,7 +19,8 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

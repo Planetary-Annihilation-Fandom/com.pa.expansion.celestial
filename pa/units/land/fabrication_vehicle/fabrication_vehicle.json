@@ -5,7 +5,7 @@
   "description": "!LOC:Basic Fabricator - Builds basic structures. Durable. More powerful than other fabricators.",
   "max_health": 150,
   "build_metal_cost": 200,
-  "buildable_types": "(Land & Structure & Basic | Factory & Basic | Factory & Land & Tank & Advanced | FabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Land & Structure & Basic | Factory & Basic | Factory & Land & Tank & Advanced | FabBuild) & Custom58",
   "guard_layer": "WL_LandHorizontal",
   "tools": [
     {
@@ -21,7 +21,8 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Land",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

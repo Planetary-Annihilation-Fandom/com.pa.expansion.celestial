@@ -22,7 +22,8 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
-    "UNITTYPE_SelfDestruct"
+    "UNITTYPE_SelfDestruct",
+    "UNITTYPE_Custom58"
   ],
   "transportable": {
     "size": 1

@@ -7,7 +7,7 @@
   "build_metal_cost": 4800,
   "atrophy_rate": 80.0,
   "atrophy_cool_down": 15.0,
-  "buildable_types": "(Bot & Mobile & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Bot & Mobile & FactoryBuild) & Custom58",
   "wait_to_rolloff_time": 0,
   "factory_cooldown_time": 3,
   "rolloff_dirs": [
@@ -36,7 +36,8 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Structure",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Important"
+    "UNITTYPE_Important",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

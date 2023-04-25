@@ -18,7 +18,8 @@
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_CombatFabBuild",
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_FabOrbBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

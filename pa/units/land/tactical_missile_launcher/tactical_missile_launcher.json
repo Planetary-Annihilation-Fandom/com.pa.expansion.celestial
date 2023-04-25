@@ -28,7 +28,8 @@
     "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_SurfaceDefense",
-    "UNITTYPE_OrbitalDefense"
+    "UNITTYPE_OrbitalDefense",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Attack"

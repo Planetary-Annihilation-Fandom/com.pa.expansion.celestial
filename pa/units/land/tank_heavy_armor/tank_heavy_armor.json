@@ -22,7 +22,8 @@
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Radar",
-    "UNITTYPE_RadarJammer"
+    "UNITTYPE_RadarJammer",
+    "UNITTYPE_Custom58"
   ],
   "transportable": {
     "size": 1

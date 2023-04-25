@@ -12,7 +12,8 @@
     "UNITTYPE_ControlModule",
     "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_Important"
+    "UNITTYPE_Important",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observable": {

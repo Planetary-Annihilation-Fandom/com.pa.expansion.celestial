@@ -19,7 +19,8 @@
     "UNITTYPE_SelfDestruct",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Important",
-    "UNITTYPE_Titan"
+    "UNITTYPE_Titan",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observable": {

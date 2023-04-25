@@ -69,7 +69,8 @@
     "UNITTYPE_Hover",
     "UNITTYPE_Important",
     "UNITTYPE_FabOrbBuild",
-    "UNITTYPE_Artillery"
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Custom58"
   ],
   "armor_type": "AT_Hover",
   "command_caps": [

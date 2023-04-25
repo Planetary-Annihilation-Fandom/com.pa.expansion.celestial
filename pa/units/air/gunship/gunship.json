@@ -24,7 +24,8 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "navigation": {
     "type": "air",

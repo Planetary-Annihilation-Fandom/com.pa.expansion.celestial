@@ -8,7 +8,7 @@
   "build_metal_cost": 600,
   "atrophy_rate": 45.0,
   "atrophy_cool_down": 15.0,
-  "buildable_types": "(Orbital & FactoryBuild & Basic) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Orbital & FactoryBuild & Basic) & Custom58",
   "factory": {
     "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
     "spawn_points": [
@@ -32,7 +32,8 @@
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Basic",
     "UNITTYPE_Important",
-    "UNITTYPE_CmdBuild"
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

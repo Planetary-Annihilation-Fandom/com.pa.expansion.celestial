@@ -5,7 +5,7 @@
   "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures.",
   "max_health": 100,
   "build_metal_cost": 2200,
-  "buildable_types": "(Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air) - Custom1 - Custom2 - Custom3 - Custom4",
+  "buildable_types": "(Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air) & Custom58",
   "guard_layer": "WL_LandHorizontal",
   "tools": [
     {
@@ -19,7 +19,8 @@
     "UNITTYPE_Construction",
     "UNITTYPE_Mobile",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

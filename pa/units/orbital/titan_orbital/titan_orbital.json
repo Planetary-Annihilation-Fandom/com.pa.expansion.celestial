@@ -45,7 +45,8 @@
     "UNITTYPE_Titan",
     "UNITTYPE_FabOrbBuild",
     "UNITTYPE_Important",
-    "UNITTYPE_Interplanetary"
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

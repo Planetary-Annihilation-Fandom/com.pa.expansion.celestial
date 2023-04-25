@@ -26,7 +26,8 @@
     "UNITTYPE_Air",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Heavy"
+    "UNITTYPE_Heavy",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

@@ -31,7 +31,8 @@
     "UNITTYPE_AirDefense",
     "UNITTYPE_Defense",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Attack"

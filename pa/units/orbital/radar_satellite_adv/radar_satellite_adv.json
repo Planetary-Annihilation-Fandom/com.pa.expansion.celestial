@@ -17,7 +17,8 @@
     "UNITTYPE_Recon",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Interplanetary",
-    "UNITTYPE_Radar"
+    "UNITTYPE_Radar",
+    "UNITTYPE_Custom58"
   ],
   "command_caps": [
     "ORDER_Move",

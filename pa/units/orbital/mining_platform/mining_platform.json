@@ -22,7 +22,8 @@
     "UNITTYPE_EnergyProduction",
     "UNITTYPE_MetalProduction",
     "UNITTYPE_Structure",
-    "UNITTYPE_Economy"
+    "UNITTYPE_Economy",
+    "UNITTYPE_Custom58"
   ],
   "recon": {
     "observer": {

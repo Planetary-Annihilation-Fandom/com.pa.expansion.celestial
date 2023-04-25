@@ -139,7 +139,7 @@
   "usable": true,
   "useable": {
     "type": "transport",
-    "range": 10
+    "range": 4084
   },
   "transporter": {
     "capacity": 1,

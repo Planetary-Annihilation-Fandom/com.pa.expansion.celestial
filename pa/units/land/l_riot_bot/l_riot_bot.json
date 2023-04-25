@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "display_name": "!LOC:Enforcer",
   "description": "!LOC:Assault Walker - High DPS. Attacks land, sea and seabed targets.",
-  "max_health": 500,
+  "max_health": 450,
   "build_metal_cost": 450,
   "guard_layer": "WL_AnySurface",
   "tools": [

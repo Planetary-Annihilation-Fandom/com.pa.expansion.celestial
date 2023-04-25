@@ -1,5 +1,5 @@
 {
-    "identifier": "com.pa.expansion.celestial",
+    "identifier": "com.pa.expansion.celestial.dev",
     "author":"Community",
 
     "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
@@ -31,12 +31,12 @@
         ]
     },
     "dependencies":[
-        "com.pa.expansion.celestial.additional",
+        "com.pa.expansion.celestial.additional.dev",
 	    "com.pa.legion-expansion-server",
 	    "pa.mla.unit.addon"
     ],
     "companions": [
-        "com.pa.expansion.celestial.additional",
+        "com.pa.expansion.celestial.additional.dev",
 	    "com.pa.legion-expansion-server",
 	    "pa.mla.unit.addon"
     ],

@@ -104,7 +104,8 @@
   },
   "physics": {
     "radius": 15,
-    "orient_interp_rate": 60.0
+    "orient_interp_rate": 60.0,
+    "air_friction":2.5
   },
   "selection_icon": {
     "diameter": 68.0

@@ -70,7 +70,8 @@
     }
   },
   "physics": {
-    "radius": 5
+    "radius": 5,
+    "air_friction":1.0
   },
   "selection_icon": {
     "diameter": 13.0

@@ -54,7 +54,7 @@
     }
   },
   "physics": {
-    "air_friction": 0.5,
+    "air_friction": 1.5,
     "radius": 6
   },
   "selection_icon": {

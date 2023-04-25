@@ -99,7 +99,7 @@
     }
   },
   "physics": {
-    "air_friction": 0.5,
+    "air_friction": 1.5,
     "radius": 3
   },
   "selection_icon": {

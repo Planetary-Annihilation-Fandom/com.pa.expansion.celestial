@@ -72,7 +72,8 @@
   },
   "physics": {
     "radius": 9,
-    "sync_radius_to_extents": true
+    "sync_radius_to_extents": true,
+    "air_friction":2.5
   },
   "selection_icon": {
     "diameter": 15.0

@@ -47,7 +47,8 @@
   },
   "physics": {
     "radius": 4,
-    "allow_pushing": true
+    "allow_pushing": true,
+    "air_friction":2.5
   },
   "model": {
     "filename": "/pa/units/land/bot_spider_adv/bot_spider_adv.papa",

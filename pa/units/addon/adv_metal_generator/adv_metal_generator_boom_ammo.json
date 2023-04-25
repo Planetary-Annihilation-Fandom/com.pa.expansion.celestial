@@ -1,6 +1,6 @@
 {
     "ammo_type": "PBAOE",
-    "damage": 350,
+    "damage": 750,
     "splash_radius": 40,
     "splash_damages_allies": true,
     "full_damage_splash_radius": 40,
@@ -9,7 +9,7 @@
         "/pa/effects/specs/scorch_b_01.json"
     ],
     "damage_volume": {
-        "initial_radius": 5.0
+        "initial_radius": 40.0
     },
     "effect_spec": "/pa/units/addon/metal_generator/metal_gen_death_effect.json"
 }

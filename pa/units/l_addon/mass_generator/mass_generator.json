@@ -6,7 +6,7 @@
   "description": "!LOC:Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "max_health": 600,
-  "build_metal_cost": 180,
+  "build_metal_cost": 210,
   "atrophy_rate": 5.0,
   "atrophy_cool_down": 15.0,
   "production": {

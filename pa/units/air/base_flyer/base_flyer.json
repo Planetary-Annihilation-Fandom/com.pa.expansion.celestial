@@ -3,7 +3,7 @@
   "description": "Base Flyer Description - If you're seeing this, something is wrong in your flyer.",
   "spawn_layers": "WL_LandHorizontal",
   "max_health": 1,
-  "wreckage_health_frac": 0.0,
+  "wreckage_health_frac": 0.7,
   "build_metal_cost": 1,
   "guard_radius": 60,
   "unit_types": [

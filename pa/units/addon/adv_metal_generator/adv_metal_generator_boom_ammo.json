@@ -11,5 +11,8 @@
     "damage_volume": {
         "initial_radius": 40.0
     },
-    "effect_spec": "/pa/units/addon/metal_generator/metal_gen_death_effect.json"
+    "effect_spec": "/pa/units/addon/metal_generator/metal_gen_death_effect.json",
+    "armor_damage_map": {
+        "AT_Orbital": 0.0
+    }
 }

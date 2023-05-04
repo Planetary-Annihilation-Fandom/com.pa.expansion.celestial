@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "display_name": "!LOC:Nova",
-  "description": "!LOC:Flying nanites generator. At death it creates a swarm of nanites. Fast. Does not attack.",
+  "display_name": "!LOC:Nova OLD VERSION",
+  "description": "!LOC:IF YOU SEE THAT - SOMETHING WENT WRONG. At death it creates a swarm of nanites. Fast. Does not attack.",
   "max_health": 180,
   "build_metal_cost": 60,
   "guard_radius": 0,

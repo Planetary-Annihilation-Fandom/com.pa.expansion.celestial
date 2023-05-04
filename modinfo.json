@@ -35,11 +35,6 @@
 	    "com.pa.legion-expansion-server",
 	    "pa.mla.unit.addon"
     ],
-    "companions": [
-        "com.pa.expansion.celestial.additional",
-	    "com.pa.legion-expansion-server",
-	    "pa.mla.unit.addon"
-    ],
 
     "framework": false,
 

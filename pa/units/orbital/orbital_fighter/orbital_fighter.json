@@ -5,7 +5,7 @@
   "spawn_layers": "WL_Orbital",
   "max_health": 50,
   "wreckage_health_frac": 0.0,
-  "build_metal_cost": 160,
+  "build_metal_cost": 360,
   "guard_radius": 300,
   "guard_layer": "WL_Orbital",
   "tools": [

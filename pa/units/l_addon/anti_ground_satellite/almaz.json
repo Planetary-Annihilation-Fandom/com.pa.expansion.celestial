@@ -6,7 +6,7 @@
   "description": "!LOC:Orbital Attack Platform - Equipped with a splash weapon. Good against weak targets. Low healthed.",
   "spawn_layers": "WL_Orbital",
   "max_health": 200,
-  "build_metal_cost": 320,
+  "build_metal_cost": 490,
   "guard_layer": "WL_AnySurface",
   "tools": [
     {
@@ -33,7 +33,7 @@
     "type": "orbital",
     "acceleration": 75,
     "brake": 75,
-    "move_speed": 40,
+    "move_speed": 50,
     "turn_speed": 90,
     "hover_time": -1.0
   },

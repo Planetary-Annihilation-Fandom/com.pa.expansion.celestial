@@ -6,7 +6,7 @@
   "description": "!LOC:Orbital Attack Platform - Equipped with a rapid-fire beam weapon. Good against weak targets. Low healthed.",
   "spawn_layers": "WL_Orbital",
   "max_health": 180,
-  "build_metal_cost": 400,
+  "build_metal_cost": 420,
   "guard_layer": "WL_AnySurface",
   "tools": [
     {
@@ -14,12 +14,6 @@
       "aim_bone": "bone_lower_antenna_base",
       "muzzle_bone": "bone_lower_antenna_base",
       "record_index": 0
-    },
-    {
-      "spec_id": "/pa/units/addon/andreas/andreas_weapon_entity.json",
-      "aim_bone": "bone_lower_antenna_base",
-      "muzzle_bone": "bone_lower_antenna_base",
-      "record_index": 1
     }
   ],
   "unit_types": [
@@ -40,7 +34,7 @@
     "type": "orbital",
     "acceleration": 75,
     "brake": 75,
-    "move_speed": 25,
+    "move_speed": 45,
     "turn_speed": 90,
     "hover_time": -1.0
   },

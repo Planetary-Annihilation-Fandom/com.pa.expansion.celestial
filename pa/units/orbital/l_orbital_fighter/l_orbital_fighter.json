@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "display_name": "!LOC:Viper",
   "description": "!LOC:Orbital Fighter - Fast. Attacks orbital targets only.",
-  "max_health": 100,
+  "max_health": 90,
   "build_metal_cost": 410,
   "guard_radius": 60,
   "guard_layer": "WL_Orbital",

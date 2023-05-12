@@ -16,10 +16,10 @@
   "firing_arc_yaw": 1,
   "firing_arc_pitch": 1,
   "target_layers": [
+    "WL_Air",
     "WL_LandHorizontal",
     "WL_WaterSurface",
-    "WL_Seafloor",
-    "WL_Air"
+    "WL_SeaFloor"
   ],
   "target_priorities": [
     "Structure - Wall",

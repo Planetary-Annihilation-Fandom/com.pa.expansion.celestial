@@ -18,6 +18,7 @@
   "target_layers": [
     "WL_Air",
     "WL_LandHorizontal",
-    "WL_WaterSurface"
+    "WL_WaterSurface",
+    "WL_SeaFloor"
   ]
 }

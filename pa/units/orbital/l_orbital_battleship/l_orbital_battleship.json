@@ -3,9 +3,9 @@
   "display_name": "!LOC:Imperator",
   "description": "!LOC:Orbital Battleship - Launches drones at planetary enemies. Heavily armored. Attacks land, air sea and orbital targets.",
   "spawn_layers": "WL_Orbital",
-  "max_health": 5500,
+  "max_health": 7000,
   "wreckage_health_frac": 0.0,
-  "build_metal_cost": 14000,
+  "build_metal_cost": 9000,
   "guard_layer": "WL_AnySurface",
   "tools": [
     {
@@ -39,14 +39,6 @@
       "projectiles_per_fire": 1,
       "record_index": 3,
       "spec_id": "/pa/units/orbital/l_orbital_battleship/l_orbital_battleship_main_tool_weapon.json"
-    },
-    {
-      "aim_bone": "laser",
-      "muzzle_bone": [
-        "laser"
-      ],
-      "record_index": -1,
-      "spec_id": "/pa/units/orbital/l_orbital_battleship/l_orbital_battleship_tool_weapon_ground.json"
     },
     {
       "aim_bone": "laser",

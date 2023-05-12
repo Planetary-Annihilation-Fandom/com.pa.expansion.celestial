@@ -3,7 +3,7 @@
   "display_name": "Helios",
   "description": "!LOC:Invasion Titan - Can link with a teleporter to send units directly to planet surface. Attacks everything.",
   "spawn_layers": "WL_Orbital",
-  "max_health": 13000,
+  "max_health": 45000,
   "wreckage_health_frac": 0.0,
   "build_metal_cost": 30000,
   "atrophy_rate": 200.0,
@@ -15,7 +15,7 @@
       "spec_id": "/pa/units/orbital/titan_orbital/titan_orbital_tool_weapon_orbital.json",
       "aim_bone": "socket_muzzle02",
       "fire_event": "fired",
-      "projectiles_per_fire": 1,
+      "projectiles_per_fire": 2,
       "muzzle_bone": [
         "socket_muzzle01",
         "socket_muzzle02",
@@ -27,7 +27,7 @@
       "spec_id": "/pa/units/orbital/titan_orbital/titan_orbital_tool_weapon_orbital.json",
       "aim_bone": "socket_muzzle06",
       "fire_event": "fired",
-      "projectiles_per_fire": 1,
+      "projectiles_per_fire": 2,
       "muzzle_bone": [
         "socket_muzzle05",
         "socket_muzzle06",
@@ -51,7 +51,8 @@
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
-    "ORDER_Attack"
+    "ORDER_Attack",
+    "ORDER_Build"
   ],
   "navigation": {
     "type": "orbital",

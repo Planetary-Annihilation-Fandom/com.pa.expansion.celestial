@@ -3,9 +3,9 @@
   "display_name": "Omega",
   "description": "!LOC:Orbital Battleship - Rapid-Fire. Very durable. Heavy damage. Attacks everything.",
   "spawn_layers": "WL_Orbital",
-  "max_health": 4000,
+  "max_health": 6000,
   "wreckage_health_frac": 0.0,
-  "build_metal_cost": 14000,
+  "build_metal_cost": 8000,
   "guard_layer": "WL_Orbital",
   "nearby_target_tick_update_interval": 15,
   "tools": [

@@ -13,9 +13,10 @@
   "yaw_range": 180,
   "pitch_range": 180,
   "target_layers": [
+    "WL_Air",
     "WL_LandHorizontal",
     "WL_WaterSurface",
-    "WL_Air"
+    "WL_SeaFloor"
   ],
   "target_priorities": [
     "Commander",

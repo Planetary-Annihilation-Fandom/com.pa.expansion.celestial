@@ -60,5 +60,8 @@
       "stage_turn_rate": 0
     }
   ],
-  "turn_rate": 30
+  "turn_rate": 30,
+  "armor_damage_map": {
+    "AT_Commander": 0.10
+  }
 }

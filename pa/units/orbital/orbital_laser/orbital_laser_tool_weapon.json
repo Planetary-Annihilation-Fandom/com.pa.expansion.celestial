@@ -19,7 +19,6 @@
     "WL_SeaFloor"
   ],
   "target_priorities": [
-    "Commander",
     "OrbitalDefense",
     "Nuke | NukeDefense",
     "Economy"

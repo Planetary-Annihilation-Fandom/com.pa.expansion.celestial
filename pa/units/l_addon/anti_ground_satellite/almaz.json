@@ -10,7 +10,7 @@
   "guard_layer": "WL_AnySurface",
   "tools": [
     {
-      "spec_id": "/pa/units/l_addon/anti_ground_satellite/almaz_tool_custom.json",
+      "spec_id": "/pa/units/l_addon/anti_ground_satellite/almaz_tool_weapon_ground.json",
       "aim_bone": "socket_muzzle",
       "muzzle_bone": "socket_muzzle"
     }

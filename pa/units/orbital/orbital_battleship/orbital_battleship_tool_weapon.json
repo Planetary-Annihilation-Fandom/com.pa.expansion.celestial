@@ -9,6 +9,10 @@
   "yaw_range": 100,
   "pitch_range": 180,
   "target_layers": [
-    "WL_Orbital"
+    "WL_Orbital",
+    "WL_Air",
+    "WL_LandHorizontal",
+    "WL_WaterSurface",
+    "WL_SeaFloor"
   ]
 }

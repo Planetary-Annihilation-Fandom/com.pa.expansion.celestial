@@ -5,5 +5,8 @@
     "splash_radius": 0,
     "collision_check": "target",
     "fx_beam_spec": "/pa/units/addon/andreas/andreas_beam_effect.pfx",
-    "fx_collision_spec": "/pa/units/addon/andreas/andreas_beam_hit_effect.pfx"
+    "fx_collision_spec": "/pa/units/addon/andreas/andreas_beam_hit_effect.pfx",
+    "armor_damage_map": {
+        "AT_Commander": 0.10
+    }
 }

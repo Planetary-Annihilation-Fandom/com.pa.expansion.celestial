@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "display_name": "!LOC:Miniman",
   "description": "!LOC:Siege Walker - Long range. Launches timed sticky plasma mines. Attacks land, sea and seabed targets.",
-  "max_health": 125,
+  "max_health": 350,
   "build_metal_cost": 1000,
   "guard_layer": "WL_AnySurface",
   "tools": [
@@ -39,9 +39,9 @@
     "size": 1
   },
   "navigation": {
-    "acceleration": 120,
+    "acceleration": 80,
     "brake": -1,
-    "move_speed": 10,
+    "move_speed": 9,
     "turn_speed": 75
   },
   "recon": {

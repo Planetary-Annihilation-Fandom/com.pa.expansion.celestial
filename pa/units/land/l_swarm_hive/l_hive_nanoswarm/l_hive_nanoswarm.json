@@ -3,7 +3,7 @@
   "display_name": "!LOC:Nanoswarm",
   "description": "!LOC:Metal Parasite - Extremely fast. Close range. Devastating damage. Attacks land, sea and seabed targets.",
   "spawn_layers": "WL_LandHorizontal",
-  "max_health": 100,
+  "max_health": 75,
   "wreckage_health_frac": 0.0,
   "build_metal_cost": 30,
   "guard_radius": 300,

@@ -4,7 +4,7 @@
   "description": "!LOC:Swarm Turret - Spawns nanoswarms. Attacks land, sea and seabed targets.",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "max_health": 1000,
-  "build_metal_cost": 750,
+  "build_metal_cost": 450,
   "atrophy_rate": 15.625,
   "atrophy_cool_down": 15,
   "area_build_separation": 18,
@@ -64,13 +64,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
+          "radius": 90,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 150,
+          "radius": 90,
           "shape": "capsule"
         }
       ]

@@ -4,7 +4,7 @@
   "description": "!LOC:Nuclear Missile Launcher - Builds and launches unlimited range, large splash damage, nuclear missiles. Can fire at other planets.",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "max_health": 1500,
-  "build_metal_cost": 9600,
+  "build_metal_cost": 10800,
   "atrophy_rate": 240,
   "atrophy_cool_down": 15,
   "factory": {

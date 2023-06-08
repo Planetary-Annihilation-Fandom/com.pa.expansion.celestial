@@ -3,7 +3,7 @@
   "display_name": "!LOC:Necromancer",
   "description": "!LOC:Siege Walker - Spawns Purgers. Can attack land targets only.",
   "max_health": 250,
-  "build_metal_cost": 750,
+  "build_metal_cost": 650,
   "guard_layer": "WL_AnySurface",
   "tools": [
     {

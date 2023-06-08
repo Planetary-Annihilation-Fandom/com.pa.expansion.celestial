@@ -11,7 +11,7 @@
   "spread_fire": true,
   "carpet_fire": true,
   "carpet_wait_for_full_ammo": true,
-  "charge_ammo_when_targeting": true,
+  "charge_ammo_when_targeting": false,
   "yaw_rate": 720,
   "pitch_rate": 720,
   "yaw_range": 180,

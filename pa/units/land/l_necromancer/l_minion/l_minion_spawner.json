@@ -6,7 +6,7 @@
   "wreckage_health_frac": 0.0,
   "build_metal_cost": 50,
   "guard_radius": 0,
-  "guard_layer": "WL_AnySurface",
+  "guard_layer": "WL_AnyLayer",
   "tools": [
     {
       "aim_bone": "bone_root",
@@ -17,6 +17,7 @@
   "unit_types": [
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
+    "UNITTYPE_Amphibious",
     "UNITTYPE_NoBuild",
     "UNITTYPE_Custom1"
   ],
@@ -25,7 +26,7 @@
     "brake": 0,
     "move_speed": 0,
     "turn_speed": 0,
-    "type": "land-small",
+    "type": "amphibious",
     "wobble_factor": 0.1,
     "wobble_speed": 0.2
   },
@@ -83,5 +84,5 @@
     }
   ],
   "damageable": false,
-  "spawn_unit_on_death": "/pa/units/land/l_necromancer/l_minion/l_minion.json"
+  "spawn_unit_on_death": "/pa/units/land/l_assault_bot/l_assault_bot.json"
 }

@@ -10,12 +10,13 @@
       "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
     }
   },
-  "armor_damage_map": {
-    "AT_Orbital": 0.5
-  },
   "audio_loop": "/SE/Movement/missile/bot_tactical_missile_fly_loop",
   "cruise_height": 50,
-  "damage": 50,
+
+  "damage": 200,
+
+  "splash_damage": 0,
+  "splash_radius": 0,
   "flight_type": "Staged",
   "full_damage_splash_radius": 0,
   "fx_trail": {
@@ -25,8 +26,7 @@
   "initial_velocity": 10.0,
   "lifetime": 5.5,
   "max_velocity": 110.0,
-  "splash_damage": 10,
-  "splash_radius": 6,
+  
   "stages": [
     {
       "ignores_LOS": false,

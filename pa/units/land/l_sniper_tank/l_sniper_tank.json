@@ -3,7 +3,7 @@
   "display_name": "!LOC:Deathmark",
   "description": "!LOC:Siege Tank - Long range. Attacks land, sea and seabed.",
   "max_health": 450,
-  "build_metal_cost": 1300,
+  "build_metal_cost": 1200,
   "guard_layer": "WL_AnySurface",
   "tools": [
     {

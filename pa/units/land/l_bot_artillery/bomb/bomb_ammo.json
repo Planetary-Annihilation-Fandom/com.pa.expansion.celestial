@@ -10,7 +10,7 @@
     "AT_Structure": 3.0,
     "AT_Vehicle": 1.0
   },
-  "damage": 500,
+  "damage": 350,
   "damage_volume": {
     "initial_radius": 10.0
   },
@@ -19,7 +19,7 @@
     "/pa/effects/specs/scorch_b_01.json"
   ],
   "sim_fire_effect": "/pa/units/land/l_bot_artillery/bomb/bomb_ammo_explosion_ent.json",
-  "splash_damage": 250,
+  "splash_damage": 175,
   "splash_damages_allies": false,
-  "splash_radius": 15
+  "splash_radius": 10
 }

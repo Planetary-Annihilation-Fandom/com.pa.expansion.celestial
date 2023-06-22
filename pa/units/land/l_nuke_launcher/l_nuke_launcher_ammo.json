@@ -67,8 +67,8 @@
   "splash_damage": 24000,
   "splash_damage_orbital": true,
   "splash_damages_allies": true,
-  "splash_radius": 200,
-  "full_damage_splash_radius": 150,
+  "splash_radius": 150,
+  "full_damage_splash_radius": 125,
   "stage_on_planet_handoff": 2,
   "stages": [
     {

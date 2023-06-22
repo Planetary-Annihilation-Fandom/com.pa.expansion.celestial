@@ -1,16 +1,16 @@
 {
   "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
   "ammo_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_ammo.json",
-  "max_range": 180,
-  "rate_of_fire": 1.5,
+  "max_range": 170,
+  "rate_of_fire": 1,
   "ammo_source": "time",
   "ammo_demand": 1,
-  "ammo_capacity": 6,
+  "ammo_capacity": 2,
   "ammo_per_shot": 2,
+  
   "auto_attack": true,
   "spread_fire": true,
-  "carpet_fire": true,
-  "carpet_wait_for_full_ammo": true,
+
   "firing_standard_deviation": 20,
   "max_firing_velocity": 80,
   "min_firing_velocity": 5,

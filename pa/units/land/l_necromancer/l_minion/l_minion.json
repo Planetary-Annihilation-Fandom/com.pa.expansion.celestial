@@ -24,11 +24,6 @@
       "aim_bone": "bone_root",
       "primary_weapon": true,
       "spec_id": "/pa/units/land/l_necromancer/l_minion/l_minion_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_root",
-      "secondary_weapon": true,
-      "spec_id": "/pa/units/land/l_necromancer/l_minion/l_minion_jump_tool_weapon.json"
     }
   ],
   "unit_types": [

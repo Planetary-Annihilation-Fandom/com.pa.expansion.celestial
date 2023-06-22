@@ -3,8 +3,8 @@
     "author":"Community",
 
     "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
-    "display_name": "Celestial Expansion (UPDATE v2.6 - LEGION RISING)",
-    "description": "Take a new look into Space! Expansion updates orbital gameplay to make it friendly, deep and exciting!",
+    "display_name": "Celestial Expansion (BOMBS and ROCKETS - UPDATE v2.7)",
+    "description": "Take a new look into Planetary Annihilation! Expansion combines and balances \"Legion Faction\" and \"Second Wave\". Try it now and get new exciting experience! \n Follow updates on Steam or PA:Discord. Feel free to suggest new ideas and improvements!",
 
     "category":[
 		"titans",
@@ -15,9 +15,9 @@
     "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
     "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial",
 
-    "build": "116931",
-    "version": "2.6.1-up1",
-    "date": "2023-06-14",
+    "build": "116982",
+    "version": "2.7.0-up0",
+    "date": "2023-06-22",
     
     "context":"server",
     "priority": 91,

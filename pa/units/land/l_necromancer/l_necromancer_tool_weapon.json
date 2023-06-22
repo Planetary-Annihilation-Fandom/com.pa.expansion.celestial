@@ -3,7 +3,7 @@
   "ammo_id": [
     {
       "id": "/pa/units/land/l_necromancer/l_necromancer_ammo.json",
-      "layer": "WL_AnyLand"
+      "layer": "WL_AnyLayer"
     }
   ],
   "max_range": 160,

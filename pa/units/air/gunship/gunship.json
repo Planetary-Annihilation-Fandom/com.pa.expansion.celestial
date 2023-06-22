@@ -3,7 +3,7 @@
   "display_name": "Kestrel",
   "description": "!LOC:Gunship - Fast. Cheap. Durable. Attacks land and sea targets.",
   "spawn_layers": "WL_Air",
-  "max_health": 250,
+  "max_health": 400,
   "build_metal_cost": 800,
   "guard_layer": "WL_AnySurface",
   "tools": [

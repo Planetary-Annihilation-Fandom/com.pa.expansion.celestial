@@ -13,13 +13,13 @@
       "aim_bone": "bone_root",
       "primary_weapon": true,
       "spec_id": "/pa/units/land/l_bot_bomb/l_bot_bomb_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_root",
-      "secondary_weapon": true,
-      "spec_id": "/pa/units/land/l_bot_bomb/l_bot_bomb_jump_tool_weapon.json"
     }
   ],
+
+  "death_weapon": {
+    "ground_ammo_spec": "/pa/units/land/l_bot_bomb/l_bot_bomb_death_ammo.json"
+  },
+
   "unit_types": [
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
@@ -42,8 +42,9 @@
     "size": 1
   },
   "navigation": {
+    "type": "amphibious",
     "acceleration": 200,
-    "brake": -1,
+    "brake": 50,
     "move_speed": 40,
     "turn_speed": 720
   },
@@ -53,8 +54,14 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 50,
-          "shape": "capsule"
+          "radius": 40,
+          "shape": "sphere"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 40,
+          "shape": "sphere"
         }
       ]
     }

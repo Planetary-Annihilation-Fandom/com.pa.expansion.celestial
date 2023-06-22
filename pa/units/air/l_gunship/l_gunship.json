@@ -3,7 +3,7 @@
   "display_name": "!LOC:Lockheed",
   "description": "!LOC:Gunship - Heavily armored. Attacks land, sea and seabed targets.",
   "spawn_layers": "WL_Air",
-  "max_health": 350,
+  "max_health": 600,
   "build_metal_cost": 900,
   "guard_layer": "WL_AnySurface",
   "tools": [

@@ -7,14 +7,6 @@
   "guard_layer": "WL_AnySurface",
   "tools": [
     {
-      "aim_bone": "bone_altDrop",
-      "fire_event": "fired0",
-      "muzzle_bone": "bone_altDrop",
-      "record_index": 0,
-      "secondary_weapon": true,
-      "spec_id": "/pa/units/air/l_firestarter/l_firestarter_turret_tool_weapon.json"
-    },
-    {
       "aim_bone": "bone_root",
       "fire_event": "fired1",
       "muzzle_bone": "bone_fireDrop",
